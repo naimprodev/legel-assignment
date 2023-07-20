@@ -58,6 +58,10 @@
     font-family: var(--primary-font-family);
     font-weight: var(--primary-width);
 }
+.banner-title{
+    font-size: var(--third-font-size);
+    font-weight: var(--third-width);
+}
 .submit-button{
     padding: 10px 15px;
     border: 0;
