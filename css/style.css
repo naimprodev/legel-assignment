@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --dark: #707070;
+    --black: #414040;
+    --green: #B68C5A;
+    --primary-font-size: 40px;
+    --primary-width: 800;
+    --secondary-font-size: 24px;
+    --secondary-width: 400;
+    --third-font-size: 16px; 
+    --third-width: 400;
+    --primary-font-family:'EB Garamond', serif;
+    --secondary-font-family:'Poppins', sans-serif;
+}
+/* nav style */
+.height{
+    height: 20vh;
+    border-radius: 5px;
+}
+.nav-button-me{
+    font-size: var(--third-font-size) !important;
+    font-weight: var(--third-width) !important;
+    color: var(--dark) !important;
+}
+.nav-button-me:hover{
+    color: var(--green) !important;
+}
+.button-primary{
+    padding: 10px 35px;
+    border: 1px solid var(--green);
+    border-radius: 5px;
+    color: white;
+    background-color: var(--green);
+    font-size: var(--third-font-size);
+    font-weight: var(--third-width);
+}
+.button-primary:hover{
+    color: var(--black);
+    border: 1px solid var(--green);
+    background-color: white;
+    transition: all ease 0.1s;
+}
+/* banner section style  */
+.banner{
+    height: 100vh;
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-radius: 5px;
+}
+.banner-head{
+    font-size: 72px;
+    font-family: var(--primary-font-family);
+    font-weight: var(--primary-width);
+}
+.submit-button{
+    padding: 10px 15px;
+    border: 0;
+    border-radius: 5px;
+    background-color: var(--green);
+    color: white;
+}
