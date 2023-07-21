@@ -25,9 +25,11 @@
     font-size: var(--third-font-size) !important;
     font-weight: var(--third-width) !important;
     color: var(--dark) !important;
+    border-bottom: 2px solid white;
 }
 .nav-button-me:hover{
     color: var(--green) !important;
+    border-bottom: 2px solid var(--green) !important;
 }
 .button-primary{
     padding: 10px 35px;
@@ -47,7 +49,8 @@
 /* banner section style  */
 .banner{
     height: 100vh;
-    background-image: url(../images/banner.png);
+    background:url(../images/banner.png), linear-gradient(rgba(0, 0, 0, 0.603) , rgba(0, 0, 0, 0.575));
+    background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
@@ -75,4 +78,17 @@
     border-radius: 5px;
     background-color: var(--green);
     color: white;
+}
+/* legel section style  */
+.legel-head{
+    font-size: var(--primary-font-size);
+    font-weight: var(--primary-width);
+    font-family: var(--primary-font-family);
+    color: var(--black);
+}
+.legel-title{
+    font-size: var(--third-font-size);
+    font-weight: var(--third-width);
+    font-family: var(--secondary-font-family);
+    color: var(--dark);
 }
