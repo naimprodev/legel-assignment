@@ -49,18 +49,25 @@
     height: 100vh;
     background-image: url(../images/banner.png);
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+    background-size: cover;
+    background-position: right;
     border-radius: 5px;
 }
 .banner-head{
     font-size: 72px;
     font-family: var(--primary-font-family);
     font-weight: var(--primary-width);
+    color: white;
 }
 .banner-title{
     font-size: var(--third-font-size);
     font-weight: var(--third-width);
+    color: white;
+}
+.search-input{
+    padding: 10px 15px;
+    border: 0;
+    border-radius: 5px;
 }
 .submit-button{
     padding: 10px 15px;
