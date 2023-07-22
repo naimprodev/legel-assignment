@@ -92,3 +92,22 @@
     font-family: var(--secondary-font-family);
     color: var(--dark);
 }
+.legal-head{
+    font-family: var(--primary-font-family);
+    color: var(--black);
+    font-size: 32px;
+    font-weight: var(--primary-width);
+}
+.legal-title{
+    font-family: var(--primary-font-family);
+    color: var(--dark);
+    font-size: var(--third-font-size);
+    font-weight: var(--third-width);
+}
+.law-button{
+    border: 0;
+    background-color: white;
+}
+.law-hover:hover{
+    background: linear-gradient(180deg, #f1ecec , rgba(243, 243, 243, 0.00));;
+}
