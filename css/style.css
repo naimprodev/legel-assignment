@@ -79,6 +79,9 @@
     background-color: var(--green);
     color: white;
 }
+.submit-button:hover{
+    
+}
 /* legel section style  */
 .legel-head{
     font-size: var(--primary-font-size);
@@ -110,4 +113,42 @@
 }
 .law-hover:hover{
     background: linear-gradient(180deg, #f1ecec , rgba(243, 243, 243, 0.00));;
+}
+/* our team section style  */
+.team-head{
+    font-size: var(--primary-font-size);
+    font-weight: var(--primary-width);
+    font-family: var(--primary-font-family);
+    color: var(--black);
+}
+
+.team-title{
+    font-size: var(--third-font-size);
+    font-weight: var(--third-width);
+    font-family: var(--secondary-font-family);
+    color: var(--dark);
+}
+.name{
+    font-size: 32px;
+    font-weight: var(--primary-width);
+    font-family: var(--primary-font-family);
+    color: var(--black);
+}
+.title{
+    font-size: 18px;
+    font-weight: var(--secondary-width);
+    font-family: var(--secondary-font-family);
+    color: var(--green);
+}
+.social-icons{
+    width: 30px;
+    height: 30px;
+    border: 1px solid gray;
+    color: var(--dark);
+    border-radius: 5px;
+}
+.social-icons:hover{
+    background-color: var(--green);
+    color: white;
+    border: 1px solid white;
 }
