@@ -1,9 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-:root{
+
+:root {
     --dark: #707070;
     --black: #414040;
     --green: #B68C5A;
@@ -11,27 +12,31 @@
     --primary-width: 800;
     --secondary-font-size: 24px;
     --secondary-width: 400;
-    --third-font-size: 16px; 
+    --third-font-size: 16px;
     --third-width: 400;
-    --primary-font-family:'EB Garamond', serif;
-    --secondary-font-family:'Poppins', sans-serif;
+    --primary-font-family: 'EB Garamond', serif;
+    --secondary-font-family: 'Poppins', sans-serif;
 }
+
 /* nav style */
-.height{
+.height {
     height: 20vh;
     border-radius: 5px;
 }
-.nav-button-me{
+
+.nav-button-me {
     font-size: var(--third-font-size) !important;
     font-weight: var(--third-width) !important;
     color: var(--dark) !important;
     border-bottom: 2px solid white;
 }
-.nav-button-me:hover{
+
+.nav-button-me:hover {
     color: var(--green) !important;
     border-bottom: 2px solid var(--green) !important;
 }
-.button-primary{
+
+.button-primary {
     padding: 10px 35px;
     border: 1px solid var(--green);
     border-radius: 5px;
@@ -40,115 +45,178 @@
     font-size: var(--third-font-size);
     font-weight: var(--third-width);
 }
-.button-primary:hover{
+
+.button-primary:hover {
     color: var(--black);
     border: 1px solid var(--green);
     background-color: white;
     transition: all ease 0.1s;
 }
+
 /* banner section style  */
-.banner{
+.banner {
     height: 100vh;
-    background:url(../images/banner.png), linear-gradient(rgba(0, 0, 0, 0.603) , rgba(0, 0, 0, 0.575));
+    background: url(../images/banner.png), linear-gradient(rgba(0, 0, 0, 0.603), rgba(0, 0, 0, 0.575));
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
     border-radius: 5px;
 }
-.banner-head{
+
+.banner-head {
     font-size: 72px;
     font-family: var(--primary-font-family);
     font-weight: var(--primary-width);
     color: white;
 }
-.banner-title{
+
+.banner-title {
     font-size: var(--third-font-size);
     font-weight: var(--third-width);
     color: white;
 }
-.search-input{
+
+.search-input {
     padding: 10px 15px;
     border: 0;
     border-radius: 5px;
 }
-.submit-button{
+
+.submit-button {
     padding: 10px 15px;
     border: 0;
     border-radius: 5px;
     background-color: var(--green);
     color: white;
 }
-.submit-button:hover{
-    
-}
+
+.submit-button:hover {}
+
 /* legel section style  */
-.legel-head{
-    font-size: var(--primary-font-size);
-    font-weight: var(--primary-width);
-    font-family: var(--primary-font-family);
-    color: var(--black);
-}
-.legel-title{
-    font-size: var(--third-font-size);
-    font-weight: var(--third-width);
-    font-family: var(--secondary-font-family);
-    color: var(--dark);
-}
-.legal-head{
-    font-family: var(--primary-font-family);
-    color: var(--black);
-    font-size: 32px;
-    font-weight: var(--primary-width);
-}
-.legal-title{
-    font-family: var(--primary-font-family);
-    color: var(--dark);
-    font-size: var(--third-font-size);
-    font-weight: var(--third-width);
-}
-.law-button{
-    border: 0;
-    background-color: white;
-}
-.law-hover:hover{
-    background: linear-gradient(180deg, #f1ecec , rgba(243, 243, 243, 0.00));;
-}
-/* our team section style  */
-.team-head{
+.legel-head {
     font-size: var(--primary-font-size);
     font-weight: var(--primary-width);
     font-family: var(--primary-font-family);
     color: var(--black);
 }
 
-.team-title{
+.legel-title {
     font-size: var(--third-font-size);
     font-weight: var(--third-width);
     font-family: var(--secondary-font-family);
     color: var(--dark);
 }
-.name{
+
+.legal-head {
+    font-family: var(--primary-font-family);
+    color: var(--black);
+    font-size: 32px;
+    font-weight: var(--primary-width);
+}
+
+.legal-title {
+    font-family: var(--primary-font-family);
+    color: var(--dark);
+    font-size: var(--third-font-size);
+    font-weight: var(--third-width);
+}
+
+.law-button {
+    border: 0;
+    background-color: white;
+}
+
+.law-hover:hover {
+    background: linear-gradient(180deg, #f1ecec, rgba(243, 243, 243, 0.00));
+    ;
+}
+
+/* our team section style  */
+.team-head {
+    font-size: var(--primary-font-size);
+    font-weight: var(--primary-width);
+    font-family: var(--primary-font-family);
+    color: var(--black);
+}
+
+.team-title {
+    font-size: var(--third-font-size);
+    font-weight: var(--third-width);
+    font-family: var(--secondary-font-family);
+    color: var(--dark);
+}
+
+.name {
     font-size: 32px;
     font-weight: var(--primary-width);
     font-family: var(--primary-font-family);
     color: var(--black);
 }
-.title{
+
+.title {
     font-size: 18px;
     font-weight: var(--secondary-width);
     font-family: var(--secondary-font-family);
     color: var(--green);
 }
-.social-icons{
+
+.social-icons {
     width: 30px;
     height: 30px;
     border: 1px solid gray;
     color: var(--dark);
     border-radius: 5px;
 }
-.social-icons:hover{
+
+.social-icons:hover {
     background-color: var(--green);
     color: white;
     border: 1px solid white;
+}
+
+/* our client section style  */
+.client-head {
+    font-size: var(--primary-font-size);
+    font-weight: var(--primary-width);
+    font-family: var(--primary-font-family);
+    color: var(--black);
+}
+
+.client-title {
+    font-size: var(--third-font-size);
+    font-weight: var(--third-width);
+    color: var(--dark);
+    font-family: var(--secondary-font-family);
+}
+/* .carousel-height{
+    height: 500px;
+} */
+.carousel-background{
+    background: url(../images/slider-1.jpg);
+    background-size: cover;
+    border-radius: 5px;
+    background-position: center;
+    height: 500px;
+
+}
+.carousel-background-one{
+    background: url(../images/slider-2.jpg);
+    background-size: cover;
+    border-radius: 5px;
+    background-position: center;
+    height: 500px;
+
+}
+.carousel-background-two{
+    background: url(../images/slider-3.jpg);
+    background-size: cover;
+    border-radius: 5px;
+    background-position: center;
+    height: 500px;
+
+}
+.client-img{
+    width: 70px;
+    height: 70px;
 }
