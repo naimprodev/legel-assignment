@@ -193,27 +193,11 @@
     height: 500px;
 } */
 .carousel-background{
-    background: url(../images/slider-1.jpg);
+    background: url(../images/slider-1.jpg), linear-gradient(rgba(0, 0, 0, 0.795), rgba(0, 0, 0, 0.795));
+    background-blend-mode: overlay;
     background-size: cover;
     border-radius: 5px;
     background-position: center;
-    height: 500px;
-
-}
-.carousel-background-one{
-    background: url(../images/slider-2.jpg);
-    background-size: cover;
-    border-radius: 5px;
-    background-position: center;
-    height: 500px;
-
-}
-.carousel-background-two{
-    background: url(../images/slider-3.jpg);
-    background-size: cover;
-    border-radius: 5px;
-    background-position: center;
-    height: 500px;
 
 }
 .client-img{
