@@ -282,3 +282,29 @@
 .contect-button:hover{
     background: linear-gradient(rgba(0, 128, 0, 0.822), rgba(0, 128, 0, 0.76));
 }
+/* footer section style  */
+.foot{
+    background-color: #111;
+}
+.head-color{
+    color: #FFF;
+    font-size: var(--secondary-font-size);
+    font-weight: var(--secondary-width);
+    font-family: var(--primary-font-family);
+}
+.text-color{
+    color: #CFCFCF;
+    font-size: var(--third-font-size);
+    font-weight: var(--third-width);
+    font-family: var(--secondary-font-family);
+}
+.foot-button{
+    border: 0;
+    background-color: var(--green);
+    padding: 20px;
+    border-radius: 5px !important;
+    color: white;
+}
+.foot-button:hover{
+    background-color: rgba(23, 124, 23, 0.815);
+}
