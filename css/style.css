@@ -232,3 +232,53 @@
     font-weight: var(--secondary-width) !important;
     font-family: var(--secondary-font-family) !important;
 }
+/* conatact section  style  */
+.contact-head{
+    font-size: var(--primary-font-size);
+    font-weight: var(--primary-width);
+    font-family: var(--primary-font-family);
+    color: var(--black);
+}
+.contact-title{
+    font-size: var(--third-font-size);
+    font-family: var(--secondary-font-family);
+    font-weight: var(--third-width);
+    color: var(--dark);
+}
+.bg-contact{
+    background-color: #F3F3F3;
+}
+.bg-contact:hover{
+    background-color: #eee3e3;
+}
+.address-head{
+    font-style: 32px;
+    font-weight: var(--primary-width);
+    font-family: var(--primary-font-family);
+    color: var(--black);
+}
+.address-title{
+    color: var(--dark);
+    font-size: var(--third-font-size);
+    font-weight: var(--third-width);
+    font-family: var(--secondary-font-family);
+}
+.form-style{
+    color: var(--dark) !important;
+    font-size: var(--secondary-font-size) !important;
+    font-weight: 400 !important;
+    background-color: #F3F3F3 !important;
+}
+.contect-button{
+    border: 0;
+    background-color: var(--green);
+    padding: 21px 0;
+    color: white;
+    font-size: var(--secondary-font-size);
+    font-weight: var(--secondary-width);
+    font-family: var(--secondary-font-family);
+    border-radius: 5px;
+}
+.contect-button:hover{
+    background: linear-gradient(rgba(0, 128, 0, 0.822), rgba(0, 128, 0, 0.76));
+}
